@@ -1,13 +1,27 @@
-li{
+li {
 	font-size: 12px;
 }
 
-.tag{
+.tag {
 	width: 200px;
 	font-size: 14px;
 	font-weight: bold;
 }
 
-.desc{
+.desc {
 	font-size: 12px;
+}
+
+.sem {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: green;
+}
+
+.block {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: green;
 }
