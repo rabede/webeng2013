@@ -12,17 +12,34 @@ li {
 }
 
 .sem {
-	width: 120px;
-	height: 20px;
-	border-radius: 5px;
-	background-color: lightgreen;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background-color: #9DE0AD;
+	color: #008800;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	border: 4px solid #008800;
+	box-shadow: 5px 5px 5px #888;
+	display: inline-block;
+	margin-right: 20px;
 }
 
 .nsem {
-	width: 120px;
-	height: 20px;
-	border-radius: 5px;
-	background-color: red;
+	width: 30px;
+	height: 30px;
+	background-color: #eee;
+	border-radius: 2px;
+	color: #CC0000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	border: 4px solid #CC0000;
+	box-shadow: 5px 5px 5px #888;
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
 }
 
 .block {
