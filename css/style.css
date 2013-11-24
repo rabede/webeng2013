@@ -1,24 +1,25 @@
-table {
-	border: 1px solid lightgrey;	
-}
-
-td {
-	border: 1px solid lightgrey;
+.abschnitt {
+	background-color: beige;
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	border: 2px solid lightgrey;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px #888;
 }
 
 th {
 	border-bottom: 2px solid black;
+	text-align: left;
 }
 
-
+h1,h2,h3,#button {
+	text-align: center;
+}
 
 .tag {
 	font-size: 14px;
 	font-weight: bold;
-}
-
-.desc {
-	font-size: 12px;
 }
 
 .sem {
@@ -52,7 +53,7 @@ th {
 	margin-right: 20px;
 }
 
-.r3, .r4{
+.r3,.r4 {
 	text-align: center;
 }
 
