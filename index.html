@@ -14,506 +14,599 @@
 
 <body>
 
-	<table>
-		<thead>
-			<tr>
-				<th>Tag</th>
-				<th>Beschreibung</th>
-				<th>Semantisch</th>
-				<th>Block-/Inline</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td class="r1"><div class="tag">&lt;a&gt;&lt;/a&gt;</div></td>
-				<td class="r2"><div class="desc">Verweis (Hyperlink) und
-						Anker für Verweise</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;abbr&gt;&lt;/abbr&gt;</div></td>
-				<td class="r2"><div class="desc">Abkürzung</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;acronym&gt;&lt;/acronym&gt;</div></td>
-				<td class="r2"><div class="desc">Akronym</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;address&gt;&lt;/address&gt;</div></td>
-				<td class="r2"><div class="desc">Kontaktangabe zum Autor
-						eines Inhalts (Credits)</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;area&gt;&lt;/area&gt;</div></td>
-				<td class="r2"><div class="desc">Verweis-sensitiver
-						Bereich in einer Image-Map-Grafik</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;b&gt;&lt;/b&gt;</div></td>
-				<td class="r2"><div class="desc">Stilistische
-						Hervorhebung im Text (üblicherweise fett dargestellt)</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;base /&gt;</div></td>
-				<td class="r2"><div class="desc">Basis-URL für Referenzen</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;bdo&gt;&lt;/bdo&gt;</div></td>
-				<td class="r2"><div class="desc">Richtungsänderung bei
-						bidirektionalem Text</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;big&gt;&lt;/big&gt;</div></td>
-				<td class="r2"><div class="desc">Großschrift</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;blockquote&gt;&lt;/blockquote&gt;</div></td>
-				<td class="r2"><div class="desc">Zitat in Form eines
-						eigenen Textabsatzes</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;body&gt;&lt;/body&gt;</div></td>
-				<td class="r2"><div class="desc">Inhaltsbereich eines
-						HTML-Dokuments</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;br /&gt;</div></td>
-				<td class="r2"><div class="desc">Erzwungener
-						Zeilenumbruch an der betreffenden Stelle</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;button&gt;&lt;/button&gt;</div></td>
-				<td class="r2"><div class="desc">Schaltfläche in einem
-						Formular</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;caption&gt;&lt;/caption&gt;</div></td>
-				<td class="r2"><div class="desc">Tabellenüberschrift /
-						-unterschrift</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;cite&gt;&lt;/cite&gt;</div></td>
-				<td class="r2"><div class="desc">Zitat innerhalb eines
-						Absatzes</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;code&gt;&lt;/code&gt;</div></td>
-				<td class="r2"><div class="desc">Quelltext-Auszug
-						innerhalb eines Absatzes</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;col /&gt;</div></td>
-				<td class="r2"><div class="desc">Tabellenspalte</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;colgroup&gt;&lt;/colgroup&gt;</div></td>
-				<td class="r2"><div class="desc">Gruppe von
-						Tabellenspalten</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;dd&gt;&lt;/dd&gt;</div></td>
-				<td class="r2"><div class="desc">Definition,
-						Beschreibung, detaillierter Inhalt zu einem &lt;dt&gt;-Element</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;del&gt;&lt;/del&gt;</div></td>
-				<td class="r2"><div class="desc">gelöschter Inhalt
-						(Änderungsmarkierung)</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;dfn&gt;&lt;/dfn&gt;</div></td>
-				<td class="r2"><div class="desc">Instanzdefinition</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;div&gt;&lt;/div&gt;</div></td>
-				<td class="r2"><div class="desc">Generischer Container</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;dl&gt;&lt;/dl&gt;</div></td>
-				<td class="r2"><div class="desc">Definitionsliste</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;dt&gt;&lt;/dt&gt;</div></td>
-				<td class="r2"><div class="desc">Definitionsbegriff</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;em&gt;&lt;/em&gt;</div></td>
-				<td class="r2"><div class="desc">Betonung</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;fieldset&gt;&lt;/fieldset&gt;</div></td>
-				<td class="r2"><div class="desc">Kontrollelementgruppe</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;form&gt;&lt;/form&gt;</div></td>
-				<td class="r2"><div class="desc">Formular</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;h1&gt;&lt;/h1&gt;</div></td>
-				<td class="r2"><div class="desc">Überschrift</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;h2&gt;&lt;/h2&gt;</div></td>
-				<td class="r2"><div class="desc">Überschrift</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;h3&gt;&lt;/h3&gt;</div></td>
-				<td class="r2"><div class="desc">Überschrift</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;h4&gt;&lt;/h4&gt;</div></td>
-				<td class="r2"><div class="desc">Überschrift</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;h5&gt;&lt;/h5&gt;</div></td>
-				<td class="r2"><div class="desc">Überschrift</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;h6&gt;&lt;/h6&gt;</div></td>
-				<td class="r2"><div class="desc">Überschrift</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;head&gt;&lt;/head&gt;</div></td>
-				<td class="r2"><div class="desc">Dokumentkopf</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;hr&gt;&lt;/hr&gt;</div></td>
-				<td class="r2"><div class="desc">Horizontaler Trenner</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;html&gt;&lt;/html&gt;</div></td>
-				<td class="r2"><div class="desc">Dokument-Root</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;i&gt;&lt;/i&gt;</div></td>
-				<td class="r2"><div class="desc">Kursivschrift</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;img&gt;&lt;/img&gt;</div></td>
-				<td class="r2"><div class="desc">Bild</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;input&gt;&lt;/input&gt;</div></td>
-				<td class="r2"><div class="desc">Eingabeelement</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;ins&gt;&lt;/ins&gt;</div></td>
-				<td class="r2"><div class="desc">Eingefügter Text</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;kbd&gt;&lt;/kbd&gt;</div></td>
-				<td class="r2"><div class="desc">Einzugebender Text</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;label&gt;&lt;/label&gt;</div></td>
-				<td class="r2"><div class="desc">Formularbeschriftung</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;legend&gt;&lt;/legend&gt;</div></td>
-				<td class="r2"><div class="desc">Beschriftung</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;li&gt;&lt;/li&gt;</div></td>
-				<td class="r2"><div class="desc">Listenelement</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;link&gt;&lt;/link&gt;</div></td>
-				<td class="r2"><div class="desc">Medienunabhängiger Link</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;map&gt;&lt;/map&gt;</div></td>
-				<td class="r2"><div class="desc">Clientseitige Image-Map</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;meta&gt;&lt;/meta&gt;</div></td>
-				<td class="r2"><div class="desc">Generische Metadaten</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;noscript&gt;&lt;/noscript&gt;</div></td>
-				<td class="r2"><div class="desc">Fallback-Container</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;object&gt;&lt;/object&gt;</div></td>
-				<td class="r2"><div class="desc">Generisches Objekt</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;ol&gt;&lt;/ol&gt;</div></td>
-				<td class="r2"><div class="desc">Geordnete Liste</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;optgroup&gt;&lt;/optgroup&gt;</div></td>
-				<td class="r2"><div class="desc">Optionsgruppe</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;option&gt;&lt;/option&gt;</div></td>
-				<td class="r2"><div class="desc">Auswahlmöglichkeit</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;p&gt;&lt;/p&gt;</div></td>
-				<td class="r2"><div class="desc">Absatz</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;param&gt;&lt;/param&gt;</div></td>
-				<td class="r2"><div class="desc">Parameter</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;pre&gt;&lt;/pre&gt;</div></td>
-				<td class="r2"><div class="desc">Vorformatierter Text</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;q&gt;&lt;/q&gt;</div></td>
-				<td class="r2"><div class="desc">Inline-Zitat</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;samp&gt;&lt;/samp&gt;</div></td>
-				<td class="r2"><div class="desc">Beispielausgabe</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;script&gt;&lt;/script&gt;</div></td>
-				<td class="r2"><div class="desc">Script-Anweisungen</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;select&gt;&lt;/select&gt;</div></td>
-				<td class="r2"><div class="desc">Optionsauswahl</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;small&gt;&lt;/small&gt;</div></td>
-				<td class="r2"><div class="desc">Kleinschrift (HTML 5:
-						Kleingedrucktes)</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;span&gt;&lt;/span&gt;</div></td>
-				<td class="r2"><div class="desc">Generischer Container</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;strong&gt;&lt;/strong&gt;</div></td>
-				<td class="r2"><div class="desc">Starke Betonung (HTML 5:
-						Wichtigkeit)</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;style&gt;&lt;/style&gt;</div></td>
-				<td class="r2"><div class="desc">Gestaltungsanweisungen</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;sub&gt;&lt;/sub&gt;</div></td>
-				<td class="r2"><div class="desc">Subskript</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;sup&gt;&lt;/sup&gt;</div></td>
-				<td class="r2"><div class="desc">Hochgestellte Schrift</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;table&gt;&lt;/table&gt;</div></td>
-				<td class="r2"><div class="desc">Tabelle</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;tbody&gt;&lt;/tbody&gt;</div></td>
-				<td class="r2"><div class="desc">Tabellenkörper</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;td&gt;&lt;/td&gt;</div></td>
-				<td class="r2"><div class="desc">Tabellenzelle</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;textarea&gt;&lt;/textarea&gt;</div></td>
-				<td class="r2"><div class="desc">Mehrzeiliges Textfeld</div></td>
-				<td class="r3"><div class="nsem">✕</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;tfoot&gt;&lt;/tfoot&gt;</div></td>
-				<td class="r2"><div class="desc">Tabellenfuß</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;th&gt;&lt;/th&gt;</div></td>
-				<td class="r2"><div class="desc">Tabellenkopfzelle</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;thead&gt;&lt;/thead&gt;</div></td>
-				<td class="r2"><div class="desc">Tabellenkopf</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;title&gt;&lt;/title&gt;</div></td>
-				<td class="r2"><div class="desc">Dokumenttitel</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;tr&gt;&lt;/tr&gt;</div></td>
-				<td class="r2"><div class="desc">Tabellenzeile</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;tt&gt;&lt;/tt&gt;</div></td>
-				<td class="r2"><div class="desc">»Fernschreiber«-Text</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;ul&gt;&lt;/ul&gt;</div></td>
-				<td class="r2"><div class="desc">Ungeordnete Liste</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="block">Block</div></td>
-			</tr>
-			<tr>
-				<td class="r1"><div class="tag">&lt;var&gt;&lt;/var&gt;</div></td>
-				<td class="r2"><div class="desc">Variableninstanz</div></td>
-				<td class="r3"><div class="sem">✓</div></td>
-				<td class="r4"><div class="inline">Inline</div></td>
-			</tr>
-		</tbody>
-	</table>
-	<p>
-		<a
-			href="http://validator.w3.org/check?uri=http://ralfbell.cloudcontrolled.com"><img
-			src="http://www.w3.org/Icons/valid-xhtml10" alt="w3c valid XHTML 1.0" /></a>
-		<a
-			href="http://jigsaw.w3.org/css-validator/validator?uri=http://ralfbell.cloudcontrolled.com">
-			<img src="http://www.w3.org/Icons/valid-css2-blue"
-			alt="w3c valid CSS 2" />
-		</a>
-	</p>
+	<div id="header" class="abschnitt">
+		<h1>Web-Engineering I: Grundlagen der Web-Entwicklung</h1>
+		<h2>Kapitel 6: Wichtige Aspekte zu HTML/CSS</h2>
+		<h3>Hausaufgabe: Mit CSS formatierte Tabelle aller "XHTML 1.0
+			strict"-Elemente</h3>
+	</div>
+
+	<div id="aufgabe" class="abschnitt">
+		<p>
+			<cite>In dieser Hausaufgabe sollen Sie auf Ihrer Website bei
+				cloudControl eine XHTML-1.0-strict-Seite erstellen (ohne
+				Bootstrap!). Die Seite soll eine "schön" formatierte Tabelle aller
+				77 Elemente zeigen mit den folgenden Spalten:</cite>
+		</p>
+		<ol>
+			<li>Element-Tag mit den spitzen Klammern:
+				&lt;tag/&gt;&lt;/tag&gt; oder falls zulässig &lt;tag /&gt;</li>
+			<li>Elementbeschreibung Inline- oder Blockelement?</li>
+			<li>Semantisches HTML?</li>
+			<li>CSS und HTML der Seite sind mit dem W3C-Validator zu
+				validieren (keine Fehler, keine Warnungen). Platzieren Sie die
+				folgenden zwei Icons (XHTML 1.0 und CSS level 2) auf Ihrer Seite:<sup><a
+					href="#1">1</a></sup>
+			</li>
+		</ol>
+
+		<p id="button">
+			<a
+				href="http://validator.w3.org/check?uri=http://ralfbell.cloudcontrolled.com"><img
+				src="http://www.w3.org/Icons/valid-xhtml10"
+				alt="w3c valid XHTML 1.0" /></a> <a
+				href="http://jigsaw.w3.org/css-validator/validator?uri=http://ralfbell.cloudcontrolled.com">
+				<img src="http://www.w3.org/Icons/valid-css2-blue"
+				alt="w3c valid CSS 2" />
+			</a>
+		</p>
+	</div>
+
+	<div id="tabelle" class="abschnitt">
+		<table>
+			<thead>
+				<tr>
+					<th>Elementtag <sup><a href="#2">2</a></sup></th>
+					<th>Beschreibung <sup><a href="#3">3</a></sup></th>
+					<th>Semantisch</th>
+					<th>Block-/Inline</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="r1"><div class="tag">&lt;a&gt;&lt;/a&gt;</div></td>
+					<td class="r2"><div class="desc">Verweis (Hyperlink) und
+							Anker für Verweise</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;abbr&gt;&lt;/abbr&gt;</div></td>
+					<td class="r2"><div class="desc">Abkürzung</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;acronym&gt;&lt;/acronym&gt;</div></td>
+					<td class="r2"><div class="desc">Akronym</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;address&gt;&lt;/address&gt;</div></td>
+					<td class="r2"><div class="desc">Kontaktangabe zum Autor
+							eines Inhalts (Credits)</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;area&gt;&lt;/area&gt;</div></td>
+					<td class="r2"><div class="desc">Verweis-sensitiver
+							Bereich in einer Image-Map-Grafik</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;b&gt;&lt;/b&gt;</div></td>
+					<td class="r2"><div class="desc">Stilistische
+							Hervorhebung im Text (üblicherweise fett dargestellt)</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;base /&gt;</div></td>
+					<td class="r2"><div class="desc">Basis-URL für
+							Referenzen</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;bdo&gt;&lt;/bdo&gt;</div></td>
+					<td class="r2"><div class="desc">Richtungsänderung bei
+							bidirektionalem Text</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;big&gt;&lt;/big&gt;</div></td>
+					<td class="r2"><div class="desc">Großschrift</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;blockquote&gt;&lt;/blockquote&gt;</div></td>
+					<td class="r2"><div class="desc">Zitat in Form eines
+							eigenen Textabsatzes</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;body&gt;&lt;/body&gt;</div></td>
+					<td class="r2"><div class="desc">Inhaltsbereich eines
+							HTML-Dokuments</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;br /&gt;</div></td>
+					<td class="r2"><div class="desc">Erzwungener
+							Zeilenumbruch an der betreffenden Stelle</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;button&gt;&lt;/button&gt;</div></td>
+					<td class="r2"><div class="desc">Schaltfläche in einem
+							Formular</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;caption&gt;&lt;/caption&gt;</div></td>
+					<td class="r2"><div class="desc">Tabellenüberschrift /
+							-unterschrift</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;cite&gt;&lt;/cite&gt;</div></td>
+					<td class="r2"><div class="desc">Zitat innerhalb eines
+							Absatzes</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;code&gt;&lt;/code&gt;</div></td>
+					<td class="r2"><div class="desc">Quelltext-Auszug
+							innerhalb eines Absatzes</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;col /&gt;</div></td>
+					<td class="r2"><div class="desc">Tabellenspalte</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;colgroup&gt;&lt;/colgroup&gt;</div></td>
+					<td class="r2"><div class="desc">Gruppe von
+							Tabellenspalten</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;dd&gt;&lt;/dd&gt;</div></td>
+					<td class="r2"><div class="desc">Definition,
+							Beschreibung, detaillierter Inhalt zu einem &lt;dt&gt;-Element</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;del&gt;&lt;/del&gt;</div></td>
+					<td class="r2"><div class="desc">gelöschter Inhalt
+							(Änderungsmarkierung)</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;dfn&gt;&lt;/dfn&gt;</div></td>
+					<td class="r2"><div class="desc">Definition innerhalb
+							eines Absatzes</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;div&gt;&lt;/div&gt;</div></td>
+					<td class="r2"><div class="desc">Allgemeiner Bereich</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;dl&gt;&lt;/dl&gt;</div></td>
+					<td class="r2"><div class="desc">Liste mit &lt;dt&gt;-
+							und &lt;dd&gt;-Elementen, für Definitionslisten, Dialoge usw.</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;dt&gt;&lt;/dt&gt;</div></td>
+					<td class="r2"><div class="desc">Zu definierender
+							Ausdruck in einer Definitionsliste, Sprechername in einem Dialog
+							usw.</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;em&gt;&lt;/em&gt;</div></td>
+					<td class="r2"><div class="desc">emphatischer Ausdruck
+							innerhalb eines Absatzes (z.B. überspitzte Formulierung)</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;fieldset&gt;&lt;/fieldset&gt;</div></td>
+					<td class="r2"><div class="desc">Gruppe von Elementen in
+							einem Formular, Reiter in einem Dialog</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;form&gt;&lt;/form&gt;</div></td>
+					<td class="r2"><div class="desc">Formular, Dialog</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;h1&gt;&lt;/h1&gt;</div></td>
+					<td class="r2"><div class="desc">Überschrift 1. Ordnung</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;h2&gt;&lt;/h2&gt;</div></td>
+					<td class="r2"><div class="desc">Überschrift 2. Ordnung</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;h3&gt;&lt;/h3&gt;</div></td>
+					<td class="r2"><div class="desc">Überschrift 3. Ordnung</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;h4&gt;&lt;/h4&gt;</div></td>
+					<td class="r2"><div class="desc">Überschrift 4. Ordnung</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;h5&gt;&lt;/h5&gt;</div></td>
+					<td class="r2"><div class="desc">Überschrift 5. Ordnung</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;h6&gt;&lt;/h6&gt;</div></td>
+					<td class="r2"><div class="desc">Überschrift 6. Ordnung</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;head&gt;&lt;/head&gt;</div></td>
+					<td class="r2"><div class="desc">Kopfbereich eines
+							HTML-Dokuments</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;hr /&gt;</div></td>
+					<td class="r2"><div class="desc">Trennlinie</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;html&gt;&lt;/html&gt;</div></td>
+					<td class="r2"><div class="desc">Dokumentelement von
+							HTML-Dokumenten, schließt das gesamte Dokument ein</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;i&gt;&lt;/i&gt;</div></td>
+					<td class="r2"><div class="desc">spezieller Ausdruck im
+							Text, z.B. Fachterminus oder Idiom (üblicherweise kursiv
+							dargestellt)</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;img /&gt;</div></td>
+					<td class="r2"><div class="desc">Referenzierte und
+							eingebettete Grafik</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;input /&gt;</div></td>
+					<td class="r2"><div class="desc">Formularelement,
+							verwendbar für diverse Typen wie Eingabefelder, Schaltflächen,
+							Auswahlfelder usw.</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;ins&gt;&lt;/ins&gt;</div></td>
+					<td class="r2"><div class="desc">Eingefügter Inhalt
+							(Änderungsmarkierung)</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;kbd&gt;&lt;/kbd&gt;</div></td>
+					<td class="r2"><div class="desc">Darstellung eines über
+							Tastatur einzugebenden Textes im Text</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;label&gt;&lt;/label&gt;</div></td>
+					<td class="r2"><div class="desc">Beschriftungstext eines
+							Formularfeldes</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;legend&gt;&lt;/legend&gt;</div></td>
+					<td class="r2"><div class="desc">Überschrift für eine
+							fieldset-Gruppe von Elementen in einem Formular</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;li&gt;&lt;/li&gt;</div></td>
+					<td class="r2"><div class="desc">Listenpunkt in einer
+							ul- oder ol-Liste</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;link /&gt;</div></td>
+					<td class="r2"><div class="desc">Logische Beziehungen
+							der aktuellen Webseite zu anderen Webseiten</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;map&gt;&lt;/map&gt;</div></td>
+					<td class="r2"><div class="desc">Bereich für
+							verweis-sensitive Grafiken</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;meta&gt;&lt;/meta&gt;</div></td>
+					<td class="r2"><div class="desc">Meta-Angabe für nicht
+							im Inhalt sichtbare Dokumentinformationen oder für Anweisungen an
+							den Webserver</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;noscript&gt;&lt;/noscript&gt;</div></td>
+					<td class="r2"><div class="desc">Bereich für Inhalte,
+							die angezeigt werden, wenn JavaScript im Browser deaktiviert oder
+							nicht verfügbar ist</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;object&gt;&lt;/object&gt;</div></td>
+					<td class="r2"><div class="desc">Eingebettetes Objekt,
+							geeignet für spezielle Multimedia-Objekte, Java-Applets usw.</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;ol&gt;&lt;/ol&gt;</div></td>
+					<td class="r2"><div class="desc">Geordnete (z.B.
+							nummerierte) Liste</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;optgroup&gt;&lt;/optgroup&gt;</div></td>
+					<td class="r2"><div class="desc">Gruppe von
+							Auswahlmöglichkeiten in einer Auswahlliste</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;option&gt;&lt;/option&gt;</div></td>
+					<td class="r2"><div class="desc">Auswahlmöglichkeit in
+							einer Auswahlliste</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;p&gt;&lt;/p&gt;</div></td>
+					<td class="r2"><div class="desc">Textabsatz</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;param /&gt;</div></td>
+					<td class="r2"><div class="desc">Parameter eines Objekts
+							bei &lt;object&gt;-Element</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;pre&gt;&lt;/pre&gt;</div></td>
+					<td class="r2"><div class="desc">Präformatierter Text
+							(alle Whitespace-Zeichen werden im Browser so dargestellt wie im
+							Text enthalten)</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;q&gt;&lt;/q&gt;</div></td>
+					<td class="r2"><div class="desc">Wörtliche Rede in einem
+							Text</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;samp&gt;&lt;/samp&gt;</div></td>
+					<td class="r2"><div class="desc">Beispieltext in einem
+							dokumentierenden Text</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;script&gt;&lt;/script&gt;</div></td>
+					<td class="r2"><div class="desc">Scriptbereich für
+							JavaScript und andere Scriptsprachen</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;select&gt;&lt;/select&gt;</div></td>
+					<td class="r2"><div class="desc">Auswahlliste in einem
+							Formular</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;small&gt;&lt;/small&gt;</div></td>
+					<td class="r2"><div class="desc">kleiner dargestellter
+							Text als Normalschrift</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;span&gt;&lt;/span&gt;</div></td>
+					<td class="r2"><div class="desc">allgemeiner Bereich
+							innerhalb eines Absatzes</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;strong&gt;&lt;/strong&gt;</div></td>
+					<td class="r2"><div class="desc">stark betonter Inhalt
+							im Text</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;style&gt;&lt;/style&gt;</div></td>
+					<td class="r2"><div class="desc">stark betonter Inhalt
+							im Text</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;sub&gt;&lt;/sub&gt;</div></td>
+					<td class="r2"><div class="desc">Tiefgestellter Text</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;sup&gt;&lt;/sup&gt;</div></td>
+					<td class="r2"><div class="desc">Hochgestellter Text</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;table&gt;&lt;/table&gt;</div></td>
+					<td class="r2"><div class="desc">Tabellen</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;tbody&gt;&lt;/tbody&gt;</div></td>
+					<td class="r2"><div class="desc">Tabellenkörper mit den
+							eigentlichen Daten</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;td&gt;&lt;/td&gt;</div></td>
+					<td class="r2"><div class="desc">Tabellenzelle</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;textarea&gt;&lt;/textarea&gt;</div></td>
+					<td class="r2"><div class="desc">Mehrzeiliger
+							Eingabebereich in einem Formular</div></td>
+					<td class="r3"><div class="nsem">✕</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;tfoot&gt;&lt;/tfoot&gt;</div></td>
+					<td class="r2"><div class="desc">Fußbereich in einer
+							Tabelle, z.B. für summarische Daten</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;th&gt;&lt;/th&gt;</div></td>
+					<td class="r2"><div class="desc">Tabellenkopfzelle</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;thead&gt;&lt;/thead&gt;</div></td>
+					<td class="r2"><div class="desc">Kopfbereich einer
+							Tabelle</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;title&gt;&lt;/title&gt;</div></td>
+					<td class="r2"><div class="desc">Titel eines
+							HTML-Dokuments</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;tr&gt;&lt;/tr&gt;</div></td>
+					<td class="r2"><div class="desc">Tabellenzeile</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;tt&gt;&lt;/tt&gt;</div></td>
+					<td class="r2"><div class="desc">
+							»Fernschreiber«-Text<sup><a href="#2">2</a></sup>
+						</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;ul&gt;&lt;/ul&gt;</div></td>
+					<td class="r2"><div class="desc">Unsortierte Liste
+							(Aufzählungsliste)</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="block">Block</div></td>
+				</tr>
+				<tr>
+					<td class="r1"><div class="tag">&lt;var&gt;&lt;/var&gt;</div></td>
+					<td class="r2"><div class="desc">Variabler Name in einem
+							dokumentierenden Text</div></td>
+					<td class="r3"><div class="sem">✓</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div id="quellen" class="abschnitt">
+		<h4>Quellen:</h4>
+		<ol>
+			<li><a name="1" /><cite><a
+					href="https://iversity.org/my/courses/web-engineering-i-grundlagen-der-web-entwicklung/assessment_units/4361/intro">Iversity</a></cite>
+			</li>
+			<li><a name="2" /><cite><a
+					href="http://meiert.com/de/publications/indices/html-elements/">Übersicht
+						aller HTML-Elemente </a></cite></li>
+			<li><a name="3" /><cite><a
+					href="http://webkompetenz.wikidot.com/html-handbuch:html-elementreferenz">HTML-Elementreferenz
+						von Stefan Münz</a></cite></li>
+		</ol>
+	</div>
+
 </body>
 </html>
