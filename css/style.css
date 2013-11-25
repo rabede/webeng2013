@@ -21,9 +21,9 @@ a {
 	color: #000033;
 }
 
-:HOVER {
+a:HOVER {
 	color: #333300;
-	font-wight: bold;
+	font-weight: bold;
 }
 
 .tag {
