@@ -1,20 +1,29 @@
 .abschnitt {
-	background-color: beige;
-	border: 2px solid lightgrey;
+	background-color: #F5F5DC;
+	border: 2px solid #4A4A43;
 	border-radius: 5px;
-	border: 2px solid lightgrey;
 	margin: 10px;
 	padding: 10px;
-	box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #9E9E8E;
+	color: #4A4A43;
 }
 
 th {
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #4A4A43;
 	text-align: left;
 }
 
 h1,h2,h3,#button {
 	text-align: center;
+}
+
+a {
+	color: #000033;
+}
+
+:HOVER {
+	color: #333300;
+	font-wight: bold;
 }
 
 .tag {
@@ -23,34 +32,34 @@ h1,h2,h3,#button {
 }
 
 .sem {
-	width: 25px;
-	height: 25px;
-	border-radius: 100%;
 	background-color: #9DE0AD;
-	color: #008800;
-	text-align: center;
-	font-weight: bold;
-	font-size: 1.5em;
-	border: 4px solid #008800;
-	box-shadow: 5px 5px 5px #888;
+	border: 4px solid #253629;
+	border-radius: 100%;
+	box-shadow: 5px 5px 5px #608a6a;
+	color: #253629;
 	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bold;
+	height: 25px;
 	margin-right: 20px;
+	text-align: center;
+	width: 25px;
 }
 
 .nsem {
-	width: 25px;
-	height: 25px;
-	background-color: #eee;
+	background-color: #EEEEEE;
+	border: 4px solid #ed5151;
 	border-radius: 2px;
-	color: #CC0000;
-	text-align: center;
-	font-weight: bold;
-	font-size: 1.5em;
-	border: 4px solid #CC0000;
-	box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #ed9f9f;
+	color: #ed5151;
 	display: inline-block;
-	position: relative;
+	font-size: 1.5em;
+	font-weight: bold;
+	height: 25px;
 	margin-right: 20px;
+	position: relative;
+	text-align: center;
+	width: 25px;
 }
 
 .r3,.r4 {
@@ -58,29 +67,29 @@ h1,h2,h3,#button {
 }
 
 .block {
-	width: 100px;
-	height: 25px;
+	background-color: #acbae5;
+	border: 4px solid #2c303b;
 	border-radius: 5px;
-	background-color: lightblue;
-	color: blue;
-	text-align: center;
-	font-size: 1.5em;
-	border: 4px solid blue;
-	box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #6b758f;
+	color: #2c303b;
 	display: inline-block;
+	font-size: 1.3em;
+	height: 25px;
 	margin-right: 20px;
+	text-align: center;
+	width: 100px;
 }
 
 .inline {
-	width: 100px;
-	height: 25px;
+	background-color: #ffff66;
+	border: 4px solid #525221;
 	border-radius: 5px;
-	background-color: yellow;
-	color: orange;
-	text-align: center;
-	font-size: 1.5em;
-	border: 4px solid orange;
-	box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #a8a843;
+	color: #525221;
 	display: inline-block;
+	font-size: 1.3em;
+	height: 25px;
 	margin-right: 20px;
+	text-align: center;
+	width: 100px;
 }
