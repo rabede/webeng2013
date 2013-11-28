@@ -25,6 +25,10 @@ h4 {
 	font-size: 120%;
 }
 
+blockquote{
+	font-style: italic;
+}
+
 th {
 	border-bottom: 2px solid #4A4A43;
 	text-align: left;
@@ -79,6 +83,9 @@ a:HOVER {
 		height: 15px;
 		width: 15px;
 	}
+	.thsem:before{
+		content: "sem.";
+	}
 }
 
 @media only screen and (min-width: 480px) {
@@ -130,7 +137,7 @@ a:HOVER {
 		font-size: 110%;
 		font-weight: bold;
 	}
-	.thsem{
+	.thsem:before{
 		content: "semantisch";
 	}
 }
@@ -146,6 +153,10 @@ a:HOVER {
 		font-size: 110%;
 		font-weight: bold;
 	}
+}
+
+.thsem, .thbli, .r3, .r4{
+	text-align: center;
 }
 
 .sem {

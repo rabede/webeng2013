@@ -22,13 +22,11 @@
 	</div>
 
 	<div id="aufgabe" class="abschnitt">
-		<p>
-			<cite> In dieser Hausaufgabe sollen Sie auf Ihrer Website bei
+		<blockquote>
+			In dieser Hausaufgabe sollen Sie auf Ihrer Website bei
 				cloudControl eine XHTML-1.0-strict-Seite erstellen (ohne
 				Bootstrap!). <br />Die Seite soll eine "schön" formatierte Tabelle
 				aller 77 Elemente zeigen mit den folgenden Spalten:
-			</cite>
-		</p>
 		<ol>
 			<li>Element-Tag mit den spitzen Klammern:
 				&lt;tag/&gt;&lt;/tag&gt; oder falls zulässig &lt;tag /&gt;</li>
@@ -36,11 +34,11 @@
 			<li>Semantisches HTML?</li>
 			<li>CSS und HTML der Seite sind mit dem W3C-Validator zu
 				validieren (keine Fehler, keine Warnungen).</li>
-			</ol>
-			<p><cite>Platzieren Sie die
+		</ol>
+			Platzieren Sie die
 				folgenden zwei Icons (XHTML 1.0 und CSS level 2) auf Ihrer Seite:<sup><a
-					href="#1">1</a></sup></cite>
-			</p>
+					href="#1">1</a></sup>
+		
 		<p id="button">
 			<a
 				href="http://validator.w3.org/check?uri=http://ralfbell.cloudcontrolled.com"><img
@@ -51,6 +49,7 @@
 				alt="w3c valid CSS 2" />
 			</a>
 		</p>
+	</blockquote>
 	</div>
 
 	<div id="tabelle" class="abschnitt">
@@ -59,8 +58,8 @@
 				<tr>
 					<th class="r1">Elementtag <sup><a href="#2">2</a></sup></th>
 					<th class="r2">Beschreibung <sup><a href="#3">3</a></sup></th>
-					<th class="r3 thsem">sem.</th>
-					<th class="r4">Block/ Inline</th>
+					<th class="r3 thsem"></th>
+					<th class="r4 thbli">Block/ Inline</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -79,7 +78,7 @@
 				</tr>
 				<tr class="ug">
 					<td class="r1"><div class="tag">&lt;acronym&gt;&lt;/acronym&gt;</div></td>
-					<td class="r2"><div class="desc">Akronym</div></td>
+					<td class="r2"><div class="desc">Akronym<sup>2</sup></div></td>
 					<td class="r3"><div class="sem">✓</div></td>
 					<td class="r4"><div class="inline">Inline</div></td>
 				</tr>
@@ -198,7 +197,7 @@
 					<td class="r2"><div class="desc">gelöschter Inhalt
 							(Änderungsmarkierung)</div></td>
 					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
 				</tr>
 				<tr class="ug">
 					<td class="r1"><div class="tag">&lt;dfn&gt;&lt;/dfn&gt;</div></td>
@@ -332,7 +331,7 @@
 					<td class="r2"><div class="desc">Eingefügter Inhalt
 							(Änderungsmarkierung)</div></td>
 					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
 				</tr>
 				<tr class="ug">
 					<td class="r1"><div class="tag">&lt;kbd&gt;&lt;/kbd&gt;</div></td>
@@ -353,7 +352,7 @@
 					<td class="r2"><div class="desc">Überschrift für eine
 							fieldset-Gruppe von Elementen in einem Formular</div></td>
 					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
+					<td class="r4"><div class="block">Block</div></td>
 				</tr>
 				<tr>
 					<td class="r1"><div class="tag">&lt;li&gt;&lt;/li&gt;</div></td>
@@ -390,7 +389,7 @@
 							die angezeigt werden, wenn JavaScript im Browser deaktiviert oder
 							nicht verfügbar ist</div></td>
 					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="block">Block</div></td>
+					<td class="r4"><div class="inline">Inline</div></td>
 				</tr>
 				<tr class="ug">
 					<td class="r1"><div class="tag">&lt;object&gt;&lt;/object&gt;</div></td>
