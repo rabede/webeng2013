@@ -5,7 +5,7 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-h1,h2,h3,#button {
+h1,h2,h3,.button {
 	text-align: center;
 }
 
@@ -25,6 +25,10 @@ h4 {
 	font-size: 120%;
 }
 
+blockquote {
+	font-style: italic;
+}
+
 th {
 	border-bottom: 2px solid #4A4A43;
 	text-align: left;
@@ -42,115 +46,31 @@ a:HOVER {
 .abschnitt {
 	background-color: #F5F5DC;
 	border: 2px solid #4A4A43;
-	border-radius: 5px;
 	margin: 10px auto;
 	padding: 10px;
-	box-shadow: 5px 5px 5px #9E9E8E;
+	width: 80%;
 }
 
 .ug {
 	background-color: #dcdcf5;
 }
 
-@media only screen and (min-width: 320px) {
-	html {
-		font-size: 50%;
-	}
-	.abschnitt {
-		width: 95%;
-	}
-	.block {
-		border: 2px solid #2c303b;
-		height: 15px;
-		width: 45px;
-	}
-	.inline {
-		border: 2px solid #525221;
-		height: 15px;
-		width: 45px;
-	}
-	.sem {
-		border: 2px solid #253629;
-		height: 15px;
-		width: 15px;
-	}
-	.nsem {
-		border: 2px solid #ed5151;
-		height: 15px;
-		width: 15px;
-	}
+
+.tag {
+	font-size: 110%;
+	font-weight: bold;
 }
 
-@media only screen and (min-width: 480px) {
-	html {
-		font-size: 50%;
-	}
-	.abschnitt {
-		width: 95%;
-	}
-}
-
-@media only screen and (min-width: 600px) {
-	html {
-		font-size: 100%;
-	}
-	.abschnitt {
-		width: 90%;
-	}
-	.block {
-		border: 4px solid #2c303b;
-		height: 25px;
-		width: 75px;
-	}
-	.inline {
-		border: 4px solid #525221;
-		height: 25px;
-		width: 75px;
-	}
-	.sem {
-		border: 4px solid #253629;
-		height: 25px;
-		width: 25px;
-	}
-	.nsem {
-		border: 4px solid #ed5151;
-		height: 25px;
-		width: 25px;
-	}		
-}
-
-@media only screen and (min-width: 800px) {
-	html {
-		font-size: 100%;
-	}
-	.abschnitt {
-		width: 80%;
-	}
-	.tag {
-		font-size: 110%;
-		font-weight: bold;
-	}
-}
-
-@media only screen and (min-width: 1024px) {
-	html {
-		font-size: 120%;
-	}
-	.abschnitt {
-		width: 70%;
-	}
-	.tag {
-		font-size: 110%;
-		font-weight: bold;
-	}
+.thsem,.thbli,.r3,.r4 {
+	text-align: center;
 }
 
 .sem {
+	border: 4px solid #253629;
+	height: 25px;
+	width: 25px;
 	background-color: #9DE0AD;
-	border-radius: 100%;
-	box-shadow: 5px 5px 5px #608a6a;
 	color: #253629;
-	display: inline-block;
 	font-size: 1.5em;
 	font-weight: bold;
 	margin-right: 20px;
@@ -158,11 +78,11 @@ a:HOVER {
 }
 
 .nsem {
+	border: 4px solid #ed5151;
+	height: 25px;
+	width: 25px;
 	background-color: #EEEEEE;
-	border-radius: 2px;
-	box-shadow: 5px 5px 5px #ed9f9f;
 	color: #ed5151;
-	display: inline-block;
 	font-size: 1.5em;
 	font-weight: bold;
 	margin-right: 20px;
@@ -171,22 +91,22 @@ a:HOVER {
 }
 
 .block {
+	border: 4px solid #2c303b;
+	height: 25px;
+	width: 75px;
 	background-color: #acbae5;
-	border-radius: 5px;
-	box-shadow: 5px 5px 5px #6b758f;
 	color: #2c303b;
-	display: inline-block;
 	font-size: 1.3em;
 	margin-right: 20px;
 	text-align: center;
 }
 
 .inline {
+	border: 4px solid #525221;
+	height: 25px;
+	width: 75px;
 	background-color: #ffff66;
-	border-radius: 5px;
-	box-shadow: 5px 5px 5px #a8a843;
 	color: #525221;
-	display: inline-block;
 	font-size: 1.3em;
 	margin-right: 20px;
 	text-align: center;
