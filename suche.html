@@ -31,7 +31,7 @@
 			<p class="button">
 				<a
 					href="http://wave.webaim.org/report#/ralfbell.cloudcontrolled.com/suche.html"><img
-					src="http://www.w3.org/WAI/wcag2AAA.gif" alt="Plakette WAI AAA"></a>
+					src="http://www.w3.org/WAI/wcag2AAA.gif" alt="Plakette WAI AAA" title="WAI-Konformität prüfen"></a>
 			</p>
 			<p>
 				Platzieren Sie die Plakette "WAI-AAA" auf Ihrer Seite und verlinken
@@ -51,25 +51,31 @@
 		</blockquote>
 	</div>
 
-
 	<div class="abschnitt">
 		<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
 			<fieldset class="abschnitt">
-				<legend>Suchen</legend>
-				<input type="text" name="search" value="" /> <input
-					type="submit" name="go" value="Artikel" /> <input type="submit"
-					name="fulltext" value="Volltext" />
+				<legend>Wikipediasuche</legend>
+				<label for="search">Bitte Suchbegriff eingeben:</label>
+				<input type="text"   name="search" id="search"  title="Suchbegriff eingeben"/> <br />
+				<label for="submit">Bitte Suchziel auswählen :</label>
+				<input class="submit" id="submit" type="submit" name="artikel"  value="Artikelsuche"  title="Artikelsuche starten" /> 
+				<input class="submit" type="submit" name="fulltext" value="Volltextsuche" title="Volltextsuche starten"/>
 			</fieldset>
 		</form>
-	</div>
+		</div>
+		
 	<div class="abschnitt">
 		<p class="button">
-			<a
+			<a class="button"
+				href="http://wave.webaim.org/report#/ralfbell.cloudcontrolled.com/suche.html"><img
+				src="http://www.w3.org/WAI/wcag2AAA.gif" alt="Plakette WAI AAA" title="WAI-Konformität prüfen"></a>
+			<a class="button"
 				href="http://validator.w3.org/check?uri=http://ralfbell.cloudcontrolled.com/suche.html"><img
-				src="img/html5.png" alt="Plakette HTML 5" /></a> <a
+				src="img/html5.png" alt="Plakette HTML 5" title="HTML5-Konformität prüfen" /></a> 
+			<a  class="button"
 				href="http://jigsaw.w3.org/css-validator/validator?uri=http://ralfbell.cloudcontrolled.com/suche.html">
-				<img src="http://www.w3.org/Icons/valid-css-blue"
-				alt="Plakette CSS3" />
+				<img src="http://www.w3.org/Icons/valid-css"
+				alt="Plakette CSS3" title="CSS3-Konformität prüfen"/>
 			</a>
 		</p>
 	</div>
