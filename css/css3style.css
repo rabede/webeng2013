@@ -79,9 +79,6 @@ input.submit{
 }
 
 @media only screen and (min-width: 320px) {
-	html {
-		font-size: 50%;
-	}
 	.abschnitt {
 		width: 95%;
 	}
@@ -108,9 +105,6 @@ input.submit{
 }
 
 @media only screen and (min-width: 480px) {
-	html {
-		font-size: 50%;
-	}
 	.abschnitt {
 		width: 95%;
 	}
