@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Iversity - Web Engineering - Barrierefreies Suchformular</title>
+
+<link href="css/css3style.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="img/favicon.ico" />
+<link rel="icon" href="img/favicon.ico" />
+</head>
+<body>
+
+	<div id="header" class="abschnitt">
+		<h1>Web-Engineering I: Grundlagen der Web-Entwicklung</h1>
+		<h2>Kapitel 7: Digitale Barrierefreiheit</h2>
+		<h3>Hausaufgabe: Barrierefreies Suchformular</h3>
+	</div>
+
+	<div id="aufgabe" class="abschnitt">
+		<blockquote>
+			<p>
+				Sie sollen für die deutsche Wikipedia ein barrierefreies Webformular
+				für die Suche nach Artikeln entwickeln. Als erste Orientierung kann
+				Ihnen das Beispiel im Wikipedia-Artikel <a
+					href="https://de.wikipedia.org/wiki/Webformular#Beispiel">"Webformular"</a>
+				dienen:
+			</p>
+			<p>Ihr Suchformular muss sich auf Ihrer Website in der Cloud von
+				cloudControl befinden und den Test auf Einhaltung der Richtlinien
+				WCAG 2.0 AAA und Section 508 bestehen.</p>
+			<p class="button">
+				<a
+					href="http://wave.webaim.org/report#/ralfbell.cloudcontrolled.com/suche.html"><img
+					src="http://www.w3.org/WAI/wcag2AAA.gif" alt="Plakette WAI AAA"></a>
+			</p>
+			<p>
+				Platzieren Sie die Plakette "WAI-AAA" auf Ihrer Seite und verlinken
+				Sie die Grafik so, dass die URL der Seite an das WAVE-Tool übergeben
+				wird. Die Peer-Prüfer/innen vergeben maximal 100 Punkte und ziehen
+				für jeden "Error" und "Alert" einen Punkt ab. Das CSS-Styling des
+				Suchformulars wird mit maximal 100 Punkten subjektiv nach den
+				Empfehlungen der Artikelserie "Reine Formsache" bewertet. Und
+				funktionieren soll das Suchformular natürlich auch: Eingabe des
+				Suchbegriffs Barrierefreiheit zeigt den <a
+					href="http://de.wikipedia.org/wiki/Barrierefreiheit">Artikel
+					"Barrierefreiheit"</a>, wenn der Button "Artikelsuche" geklickt wird.
+				Wird der Button "Volltextsuche" geklickt, kommt die <a
+					href="http://de.wikipedia.org/w/index.php?title=Spezial:Suche&profile=default&search=Barrierefreiheit&fulltext=Search">Trefferliste</a>.
+				Für jeden Testfall vergeben die Prüfer/innen maximal 50 Punkte.
+			</p>
+		</blockquote>
+	</div>
+
+
+	<div class="abschnitt">
+		<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+			<fieldset class="abschnitt">
+				<legend>Suchen</legend>
+				<input type="text" name="search" value="" /> <input
+					type="submit" name="go" value="Artikel" /> <input type="submit"
+					name="fulltext" value="Volltext" />
+			</fieldset>
+		</form>
+	</div>
+	<div class="abschnitt">
+		<p class="button">
+			<a
+				href="http://validator.w3.org/check?uri=http://ralfbell.cloudcontrolled.com/suche.html"><img
+				src="img/html5.png" alt="Plakette HTML 5" /></a> <a
+				href="http://jigsaw.w3.org/css-validator/validator?uri=http://ralfbell.cloudcontrolled.com/suche.html">
+				<img src="http://www.w3.org/Icons/valid-css-blue"
+				alt="Plakette CSS3" />
+			</a>
+		</p>
+	</div>
+</body>
+</html>
