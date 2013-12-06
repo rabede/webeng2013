@@ -59,10 +59,18 @@ input {
 	box-shadow: 5px 5px 5px #9E9E8E;
 }
 
-input.submit{
+.submit{
 	color: #4A4A43;
 	background-color: #F5F5DCE;
 	padding: 10px 10px;
+}
+
+.submit:hover {
+	text-decoration: none;
+}
+.submit:active {
+	position: relative;
+	top: 1px;
 }
 
 .abschnitt {
