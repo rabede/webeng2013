@@ -1,625 +1,130 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+<!DOCTYPE html>
+<html lang="de"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Learning">
+    <meta name="author" content="Ralf Bell">
+    <link rel="shortcut icon" href="img/favicon.ico">
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Iversity - Web Engineering - Tagliste XHTML 1.0 strict</title>
+    <title>Webengineering I | Iversity MOOC</title>
 
-<link href="css/css2style.css" type="text/css" rel="stylesheet" />
-<link rel="shortcut icon" href="img/favicon.ico" />
-<link rel="icon" href="img/favicon.ico" />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-</head>
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
 
-<body>
+     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-	<div id="header" class="abschnitt">
-		<h1>Web-Engineering I: Grundlagen der Web-Entwicklung</h1>
-		<h2>Kapitel 6: Wichtige Aspekte zu HTML/CSS</h2>
-		<h3>Hausaufgabe: Mit CSS formatierte Tabelle aller "XHTML 1.0
-			strict"-Elemente</h3>
+  <body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Ralf Bell</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Startseite</a></li>
+					<li><a href="about.html">Impressum</a></li>
+				</ul>
+			</div>
+			<!--/.navbar-collapse -->
+		</div>
 	</div>
 
-	<div id="aufgabe" class="abschnitt">
-		<blockquote>
-			<p>In dieser Hausaufgabe sollen Sie auf Ihrer Website bei
-				cloudControl eine XHTML-1.0-strict-Seite erstellen (ohne
-				Bootstrap!). Die Seite soll eine "schön" formatierte Tabelle aller
-				77 Elemente zeigen mit den folgenden Spalten:</p>
-			<ol>
-				<li>Element-Tag mit den spitzen Klammern:
-					&lt;tag/&gt;&lt;/tag&gt; oder falls zulässig &lt;tag /&gt;</li>
-				<li>Elementbeschreibung Inline- oder Blockelement?</li>
-				<li>Semantisches HTML?</li>
-				<li>CSS und HTML der Seite sind mit dem W3C-Validator zu
-					validieren (keine Fehler, keine Warnungen).</li>
-			</ol>
-			<p>
-				Platzieren Sie die folgenden zwei Icons (XHTML 1.0 und CSS level 2)
-				auf Ihrer Seite: <sup><a href="#1">1</a></sup>
-			</p>
-			<p class="button">
-				<a
-					href="http://validator.w3.org/check?uri=http://ralfbell.cloudcontrolled.com"><img
-					src="http://www.w3.org/Icons/valid-xhtml10"
-					alt="w3c valid XHTML 1.0" /></a> <a
-					href="http://jigsaw.w3.org/css-validator/validator?uri=http://ralfbell.cloudcontrolled.com&amp;profile=css2">
-					<img src="http://www.w3.org/Icons/valid-css2-blue"
-					alt="w3c valid CSS 2" />
-				</a>
-			</p>
-		</blockquote>
-	</div>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Iversity MOOC - Webengineering I</h1>
+        <p>Diese Seiten sind das Ergebnis meiner Mitarbeit im Iversity <abbr title="Massive Open Online Course">MOOC</abbr> Webengineering I.</p>
+      </div>
+    </div>
 
-	<div id="tabelle" class="abschnitt">
-		<table>
-			<thead>
-				<tr>
-					<th class="r1">Elementtag <sup><a href="#2">2</a></sup></th>
-					<th class="r2">Beschreibung <sup><a href="#3">3</a></sup></th>
-					<th class="r3 thsem"><abbr title="semantisch">sem.</abbr></th>
-					<th class="r4 thbli">Block/ Inline</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;a&gt;&lt;/a&gt;
-							(auch: &lt;a /&gt;)</div></td>
-					<td class="r2"><div class="desc">Verweis (Hyperlink) und
-							Anker für Verweise</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;abbr&gt;&lt;/abbr&gt;</div></td>
-					<td class="r2"><div class="desc">Abkürzung</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;acronym&gt;&lt;/acronym&gt;</div></td>
-					<td class="r2"><div class="desc">
-							Akronym<sup><a href="#2">2</a></sup>
-						</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;address&gt;&lt;/address&gt;</div></td>
-					<td class="r2"><div class="desc">Kontaktangabe zum Autor
-							eines Inhalts (Credits)</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;area&gt;&lt;/area&gt;</div></td>
-					<td class="r2"><div class="desc">Verweis-sensitiver
-							Bereich in einer Image-Map-Grafik</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;b&gt;&lt;/b&gt;</div></td>
-					<td class="r2"><div class="desc">Stilistische
-							Hervorhebung im Text (üblicherweise fett dargestellt)</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;base /&gt;</div></td>
-					<td class="r2"><div class="desc">Basis-URL für
-							Referenzen</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;bdo&gt;&lt;/bdo&gt;</div></td>
-					<td class="r2"><div class="desc">Richtungsänderung bei
-							bidirektionalem Text</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;big&gt;&lt;/big&gt;</div></td>
-					<td class="r2"><div class="desc">Großschrift</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;blockquote&gt;&lt;/blockquote&gt;</div></td>
-					<td class="r2"><div class="desc">Zitat in Form eines
-							eigenen Textabsatzes</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;body&gt;&lt;/body&gt;</div></td>
-					<td class="r2"><div class="desc">Inhaltsbereich eines
-							HTML-Dokuments</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;br /&gt;</div></td>
-					<td class="r2"><div class="desc">Erzwungener
-							Zeilenumbruch an der betreffenden Stelle</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;button&gt;&lt;/button&gt;</div></td>
-					<td class="r2"><div class="desc">Schaltfläche in einem
-							Formular</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;caption&gt;&lt;/caption&gt;</div></td>
-					<td class="r2"><div class="desc">Tabellenüberschrift /
-							-unterschrift</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;cite&gt;&lt;/cite&gt;</div></td>
-					<td class="r2"><div class="desc">Zitat innerhalb eines
-							Absatzes</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;code&gt;&lt;/code&gt;</div></td>
-					<td class="r2"><div class="desc">Quelltext-Auszug
-							innerhalb eines Absatzes</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;col /&gt;</div></td>
-					<td class="r2"><div class="desc">Tabellenspalte</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;colgroup&gt;&lt;/colgroup&gt;</div></td>
-					<td class="r2"><div class="desc">Gruppe von
-							Tabellenspalten</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;dd&gt;&lt;/dd&gt;</div></td>
-					<td class="r2"><div class="desc">Definition,
-							Beschreibung, detaillierter Inhalt zu einem &lt;dt&gt;-Element</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;del&gt;&lt;/del&gt;</div></td>
-					<td class="r2"><div class="desc">gelöschter Inhalt
-							(Änderungsmarkierung)</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;dfn&gt;&lt;/dfn&gt;</div></td>
-					<td class="r2"><div class="desc">Definition innerhalb
-							eines Absatzes</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;div&gt;&lt;/div&gt;</div></td>
-					<td class="r2"><div class="desc">Allgemeiner Bereich</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;dl&gt;&lt;/dl&gt;</div></td>
-					<td class="r2"><div class="desc">Liste mit &lt;dt&gt;-
-							und &lt;dd&gt;-Elementen, für Definitionslisten, Dialoge usw.</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;dt&gt;&lt;/dt&gt;</div></td>
-					<td class="r2"><div class="desc">Zu definierender
-							Ausdruck in einer Definitionsliste, Sprechername in einem Dialog
-							usw.</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;em&gt;&lt;/em&gt;</div></td>
-					<td class="r2"><div class="desc">emphatischer Ausdruck
-							innerhalb eines Absatzes (z.B. überspitzte Formulierung)</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;fieldset&gt;&lt;/fieldset&gt;</div></td>
-					<td class="r2"><div class="desc">Gruppe von Elementen in
-							einem Formular, Reiter in einem Dialog</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;form&gt;&lt;/form&gt;</div></td>
-					<td class="r2"><div class="desc">Formular, Dialog</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;h1&gt;&lt;/h1&gt;</div></td>
-					<td class="r2"><div class="desc">Überschrift 1. Ordnung</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;h2&gt;&lt;/h2&gt;</div></td>
-					<td class="r2"><div class="desc">Überschrift 2. Ordnung</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;h3&gt;&lt;/h3&gt;</div></td>
-					<td class="r2"><div class="desc">Überschrift 3. Ordnung</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;h4&gt;&lt;/h4&gt;</div></td>
-					<td class="r2"><div class="desc">Überschrift 4. Ordnung</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;h5&gt;&lt;/h5&gt;</div></td>
-					<td class="r2"><div class="desc">Überschrift 5. Ordnung</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;h6&gt;&lt;/h6&gt;</div></td>
-					<td class="r2"><div class="desc">Überschrift 6. Ordnung</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;head&gt;&lt;/head&gt;</div></td>
-					<td class="r2"><div class="desc">Kopfbereich eines
-							HTML-Dokuments</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;hr /&gt;</div></td>
-					<td class="r2"><div class="desc">Trennlinie</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;html&gt;&lt;/html&gt;</div></td>
-					<td class="r2"><div class="desc">Dokumentelement von
-							HTML-Dokumenten, schließt das gesamte Dokument ein</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;i&gt;&lt;/i&gt;</div></td>
-					<td class="r2"><div class="desc">spezieller Ausdruck im
-							Text, z.B. Fachterminus oder Idiom (üblicherweise kursiv
-							dargestellt)</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;img /&gt;</div></td>
-					<td class="r2"><div class="desc">Referenzierte und
-							eingebettete Grafik</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;input /&gt;</div></td>
-					<td class="r2"><div class="desc">Formularelement,
-							verwendbar für diverse Typen wie Eingabefelder, Schaltflächen,
-							Auswahlfelder usw.</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;ins&gt;&lt;/ins&gt;</div></td>
-					<td class="r2"><div class="desc">Eingefügter Inhalt
-							(Änderungsmarkierung)</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;kbd&gt;&lt;/kbd&gt;</div></td>
-					<td class="r2"><div class="desc">Darstellung eines über
-							Tastatur einzugebenden Textes im Text</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;label&gt;&lt;/label&gt;</div></td>
-					<td class="r2"><div class="desc">Beschriftungstext eines
-							Formularfeldes</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;legend&gt;&lt;/legend&gt;</div></td>
-					<td class="r2"><div class="desc">Überschrift für eine
-							fieldset-Gruppe von Elementen in einem Formular</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;li&gt;&lt;/li&gt;</div></td>
-					<td class="r2"><div class="desc">Listenpunkt in einer
-							ul- oder ol-Liste</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;link /&gt;</div></td>
-					<td class="r2"><div class="desc">Logische Beziehungen
-							der aktuellen Webseite zu anderen Webseiten</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;map&gt;&lt;/map&gt;</div></td>
-					<td class="r2"><div class="desc">Bereich für
-							verweis-sensitive Grafiken</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;meta&gt;&lt;/meta&gt;</div></td>
-					<td class="r2"><div class="desc">Meta-Angabe für nicht
-							im Inhalt sichtbare Dokumentinformationen oder für Anweisungen an
-							den Webserver</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;noscript&gt;&lt;/noscript&gt;</div></td>
-					<td class="r2"><div class="desc">Bereich für Inhalte,
-							die angezeigt werden, wenn JavaScript im Browser deaktiviert oder
-							nicht verfügbar ist</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;object&gt;&lt;/object&gt;</div></td>
-					<td class="r2"><div class="desc">Eingebettetes Objekt,
-							geeignet für spezielle Multimedia-Objekte, Java-Applets usw.</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;ol&gt;&lt;/ol&gt;</div></td>
-					<td class="r2"><div class="desc">Geordnete (z.B.
-							nummerierte) Liste</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;optgroup&gt;&lt;/optgroup&gt;</div></td>
-					<td class="r2"><div class="desc">Gruppe von
-							Auswahlmöglichkeiten in einer Auswahlliste</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;option&gt;&lt;/option&gt;</div></td>
-					<td class="r2"><div class="desc">Auswahlmöglichkeit in
-							einer Auswahlliste</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;p&gt;&lt;/p&gt;</div></td>
-					<td class="r2"><div class="desc">Textabsatz</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;param /&gt;</div></td>
-					<td class="r2"><div class="desc">Parameter eines Objekts
-							bei &lt;object&gt;-Element</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;pre&gt;&lt;/pre&gt;</div></td>
-					<td class="r2"><div class="desc">Präformatierter Text
-							(alle Whitespace-Zeichen werden im Browser so dargestellt wie im
-							Text enthalten)</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;q&gt;&lt;/q&gt;</div></td>
-					<td class="r2"><div class="desc">Wörtliche Rede in einem
-							Text</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;samp&gt;&lt;/samp&gt;</div></td>
-					<td class="r2"><div class="desc">Beispieltext in einem
-							dokumentierenden Text</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;script&gt;&lt;/script&gt;</div></td>
-					<td class="r2"><div class="desc">Scriptbereich für
-							JavaScript und andere Scriptsprachen</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;select&gt;&lt;/select&gt;</div></td>
-					<td class="r2"><div class="desc">Auswahlliste in einem
-							Formular</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;small&gt;&lt;/small&gt;</div></td>
-					<td class="r2"><div class="desc">kleiner dargestellter
-							Text als Normalschrift</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;span&gt;&lt;/span&gt;</div></td>
-					<td class="r2"><div class="desc">allgemeiner Bereich
-							innerhalb eines Absatzes</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;strong&gt;&lt;/strong&gt;</div></td>
-					<td class="r2"><div class="desc">stark betonter Inhalt
-							im Text</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;style&gt;&lt;/style&gt;</div></td>
-					<td class="r2"><div class="desc">Bereich für
-							Stylesheet-Definitionen, z.B. in CSS</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;sub&gt;&lt;/sub&gt;</div></td>
-					<td class="r2"><div class="desc">Tiefgestellter Text</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;sup&gt;&lt;/sup&gt;</div></td>
-					<td class="r2"><div class="desc">Hochgestellter Text</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;table&gt;&lt;/table&gt;</div></td>
-					<td class="r2"><div class="desc">Tabellen</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;tbody&gt;&lt;/tbody&gt;</div></td>
-					<td class="r2"><div class="desc">Tabellenkörper mit den
-							eigentlichen Daten</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;td&gt;&lt;/td&gt;</div></td>
-					<td class="r2"><div class="desc">Tabellenzelle</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;textarea&gt;&lt;/textarea&gt;</div></td>
-					<td class="r2"><div class="desc">Mehrzeiliger
-							Eingabebereich in einem Formular</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;tfoot&gt;&lt;/tfoot&gt;</div></td>
-					<td class="r2"><div class="desc">Fußbereich in einer
-							Tabelle, z.B. für summarische Daten</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;th&gt;&lt;/th&gt;</div></td>
-					<td class="r2"><div class="desc">Tabellenkopfzelle</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;thead&gt;&lt;/thead&gt;</div></td>
-					<td class="r2"><div class="desc">Kopfbereich einer
-							Tabelle</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;title&gt;&lt;/title&gt;</div></td>
-					<td class="r2"><div class="desc">Titel eines
-							HTML-Dokuments</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;tr&gt;&lt;/tr&gt;</div></td>
-					<td class="r2"><div class="desc">Tabellenzeile</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;tt&gt;&lt;/tt&gt;</div></td>
-					<td class="r2"><div class="desc">
-							»Fernschreiber«-Text<sup><a href="#2">2</a></sup>
-						</div></td>
-					<td class="r3"><div class="nsem">✕</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-				<tr>
-					<td class="r1"><div class="tag">&lt;ul&gt;&lt;/ul&gt;</div></td>
-					<td class="r2"><div class="desc">Unsortierte Liste
-							(Aufzählungsliste)</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="block">Block</div></td>
-				</tr>
-				<tr class="ug">
-					<td class="r1"><div class="tag">&lt;var&gt;&lt;/var&gt;</div></td>
-					<td class="r2"><div class="desc">Variabler Name in einem
-							dokumentierenden Text</div></td>
-					<td class="r3"><div class="sem">✓</div></td>
-					<td class="r4"><div class="inline">Inline</div></td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        
+        <div class="col-md-4">
+          <h2>77 HTML-Elemente</h2>
+          <p>In dieser Hausaufgabe sollen Sie auf Ihrer Website bei cloudControl eine XHTML-1.0-strict-Seite erstellen (ohne Bootstrap!). Die Seite soll eine "schön" formatierte Tabelle aller 77 Elemente zeigen...</p>
+          <p><a class="btn btn-default" href="tabelle.html" role="button">Weiterlesen »</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2>Barrierefreies Suchformular</h2>
+          <p>Sie sollen für die deutsche Wikipedia ein barrierefreies Webformular für die Suche nach Artikeln entwickeln...</p>
+          <p><a class="btn btn-default" href="suche.html" role="button">Weiterlesen »</a></p>
+       </div>
+        
+        <div class="col-md-4">
+          <h2>Interaktives Praktikum: HTML/CSS</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis 
+in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. 
+Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+ ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+        </div>
+      
+      </div> <!-- end of row -->
 
-	<div id="quellen" class="abschnitt">
-		<h4>Quellen:</h4>
-		<ol>
-			<li><a name="1" /><cite><a
-					href="https://iversity.org/my/courses/web-engineering-i-grundlagen-der-web-entwicklung/assessment_units/4361/intro">Iversity</a></cite>
-			</li>
-			<li><a name="2" /><cite><a
-					href="http://meiert.com/de/publications/indices/html-elements/">Übersicht
-						aller HTML-Elemente </a></cite></li>
-			<li><a name="3" /><cite><a
-					href="http://webkompetenz.wikidot.com/html-handbuch:html-elementreferenz">HTML-Elementreferenz
-						von Stefan Münz</a></cite></li>
-		</ol>
-		<p class="button">
-			<a
-				href="http://validator.w3.org/check?uri=http://ralfbell.cloudcontrolled.com"><img
-				src="http://www.w3.org/Icons/valid-xhtml10"
-				alt="w3c valid XHTML 1.0" /></a> <a
-				href="http://jigsaw.w3.org/css-validator/validator?uri=http://ralfbell.cloudcontrolled.com&amp;profile=css2">
-				<img src="http://www.w3.org/Icons/valid-css2-blue"
-				alt="w3c valid CSS 2" />
-			</a>
-		</p>
-	</div>
+      <div class="row">
+        
+        <div class="col-md-2">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce 
+dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
+fermentum massa justo sit amet risus. Etiam porta sem malesuada magna 
+mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce 
+dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut 
+fermentum massa justo sit amet risus. Etiam porta sem malesuada magna 
+mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+       </div>
+        
+        <div class="col-md-6">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis 
+in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. 
+Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+ ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+        </div>
+      
+      </div> <!-- end of row -->
 
-</body>
-</html>
+      <hr>
+
+      <footer>
+        <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a> Ralf Bell 2013</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-2.0.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+  
+
+</body></html>
