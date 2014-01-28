@@ -1,25 +1,25 @@
 WEBVTT FILE
 
 1
-00:00:00.500 --> 00:00:05.000 D:vertical A:start
+00:00:00.500 --> 00:00:03.000 D:vertical
 Hi fellow students,
 
 2
-00:00:11.000 --> 00:00:16.000
+00:00:04.000 --> 00:00:07.000 D:vertical
 I'd rather presented you a video about my hometown Leverkusen
 
 3
-00:00:17.000 --> 00:00:22.000
+00:00:08.000 --> 00:00:11.000 D:vertical
 but time of year is not very helpful :-(
 
 4
-00:00:23.000 --> 00:00:28.000
+00:00:12.000 --> 00:00:15.000 D:vertical
 dark before work, dark after work. :-(( 
 
 5
-00:00:29.000 --> 00:00:36.000 D:vertical
+00:00:16.000 --> 00:00:20.000 D:vertical
 What a luck I just found the screencast function of KitKat (aka Android 4.4.2)!
 
 6
-00:00:37.000 --> 00:00:40.000 D:vertical
+00:00:20.000 --> 00:00:25.000 D:vertical
 So I can proudly present you the hello world app I hacked recently.
