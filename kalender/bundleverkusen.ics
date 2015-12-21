@@ -1,0 +1,326 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nabu/Bund Leverkusen
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Berlin:20150204T190000
+DTEND;TZID=Europe/Berlin:20150204T200000
+RRULE:FREQ=MONTHLY;COUNT=11;BYDAY=1WE
+EXDATE;TZID=Europe/Berlin:20150603T190000
+EXDATE;TZID=Europe/Berlin:20150701T190000
+EXDATE;TZID=Europe/Berlin:20151104T190000
+DTSTAMP:20151221T094346Z
+UID:2knolc38v9ifmgkr8r9c8vi3mg@google.com
+CREATED:20150114T143740Z
+DESCRIPTION:
+LAST-MODIFIED:20150114T144601Z
+LOCATION:Gustav-Heinemann-Str. 11\, 51373 Leverkusen\, Deutschland
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Arbeitskreis Fledermäuse
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Berlin:20150121T190000
+DTEND;TZID=Europe/Berlin:20150121T200000
+RRULE:FREQ=MONTHLY;COUNT=12;BYDAY=3WE
+EXDATE;TZID=Europe/Berlin:20150520T190000
+EXDATE;TZID=Europe/Berlin:20150617T190000
+EXDATE;TZID=Europe/Berlin:20150819T190000
+EXDATE;TZID=Europe/Berlin:20150916T190000
+EXDATE;TZID=Europe/Berlin:20151021T190000
+DTSTAMP:20151221T094346Z
+UID:281p8125okfnk1vkapf53251ic@google.com
+CREATED:20150114T143740Z
+DESCRIPTION:
+LAST-MODIFIED:20150114T144611Z
+LOCATION:Gustav-Heinemann-Str. 11\, 51373 Leverkusen\, Deutschland
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Arbeitskreis Öffentlichkeitsarbeit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150308T230000Z
+DTSTAMP:20151221T094346Z
+UID:Ical67c3793418e3be5e9b37e6af9961b408
+CREATED:19000101T120000Z
+DESCRIPTION:
+LAST-MODIFIED:20150120T072729Z
+LOCATION:Gustav-Heinemann-Str. 11\, 51373 Leverkusen\, Deutschland
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:NABU – Jahreshauptversammlung
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT0S
+SEQUENCE:0
+ATTACH;VALUE=URI:Ping
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150106T230000Z
+DTSTAMP:20151221T094346Z
+UID:Icalcb0cd874de7c5b0494534471b711104f
+CREATED:19000101T120000Z
+DESCRIPTION:
+LAST-MODIFIED:20150120T072729Z
+LOCATION:Gustav-Heinemann-Str. 11\, 51373 Leverkusen\, Deutschland
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Arbeitskreis Fledermäuse
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT0S
+SEQUENCE:0
+ATTACH;VALUE=URI:Ping
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150209T183000Z
+DTEND:20150209T200000Z
+DTSTAMP:20151221T094346Z
+UID:Icalfe7656ba96d861a591f51670651cde5f
+CREATED:19000101T120000Z
+DESCRIPTION:Unser Referent nimmt uns auch dieses Mal wieder mit auf eine ga
+ nz besondere Reise - die Umrundung von Spitzbergen. Er führt uns in wunders
+ chöne Fjorde mit\nkalbenden Gletschern\, in die unbewohnte Tundra mit Perma
+ frostböden sowie in dichtes Packeis bis auf 80°40'N. In Wort und Bild wird 
+ die charakteristische\nTier- und Pflanzenwelt vorgestellt. Wir begegnen Wal
+ rössern\, Eisbären\, Rentieren und speziell Vogelarten der Felsenklippen\, 
+ aber auch beeindruckende Dokumente von jagenden Buckel- und Blauwalen werde
+ n uns gezeigt.\nReferent: Dr. Peter Wegner\nOrt: InfoTreff für Natur und Um
+ welt in Leverkusen-Manfort\, Gustav-Heinemann-Str. 11\nKosten: 3\,- Euro (K
+ inder und Mitglieder kostenlos)
+LAST-MODIFIED:20150120T073134Z
+LOCATION:Gustav-Heinemann-Str. 11\, 51373 Leverkusen\, Deutschland
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Lebensträume im Eis – die Umrundung von Spitzbergen Bildvortrag
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT0S
+SEQUENCE:0
+ATTACH;VALUE=URI:Ping
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150125T080000Z
+DTEND:20150125T120000Z
+DTSTAMP:20151221T094346Z
+UID:Icalf7c3eb1f06c7573c8d82b3ea4b7fcb97
+CREATED:19000101T120000Z
+DESCRIPTION:Der Vogelexperte Albert Hullen wird uns auf einen circa zweistü
+ ndigen Rundgang um den Elbsee bei Düsseldorf mitnehmen. Wir hoffen mit ihm\
+ , auf dem See viele Wintergäste und natürlich auch heimische Wasservögel zu
+  entdecken. Nach dem Rundgang können wir noch im „Naturhof“ in Hilden zu ei
+ nem gemeinsamen verspäteten Frühstück einkehren.\nTreffpunkt: Parkplatz des
+  Lise-Meitner-Gymnasiums\, Am Stadtpark 44 in Leverkusen-Wiesdorf\nLeitung:
+  Albert Hullen\nKosten: 3\,- Euro (Kinder und Mitglieder kostenlos)
+LAST-MODIFIED:20150120T073156Z
+LOCATION:Am Stadtpark 44\,51373 Leverkusen\, Deutschland
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Wasservogelwanderung am Elbsee
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT0S
+SEQUENCE:0
+ATTACH;VALUE=URI:Ping
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150126T180000Z
+DTEND:20150126T200000Z
+DTSTAMP:20151221T094346Z
+UID:Icalfc283286b0d782a4419f157dda514b1e
+CREATED:19000101T120000Z
+DESCRIPTION:Ein Film von Bertram Verhaag\, Deutschland 2014\nFilmabend in K
+ ooperation mit dem Kommunalen Kino \nIn poetischen Bildern wird die Farm de
+ s britischen Thronfolgers Prinz Charles in Südengland vorgestellt.\nSeit 30
+  Jahren zeigen er und sein Farmmanager David Wilson\, wie ökologische Landw
+ irtschaft funktioniert und welche Heilkraft für Mensch und Natur von ihr au
+ sgeht. \nVon Anfang an war ihnen klar\, dass man nur mit praktischen Beispi
+ elen Bauern überzeugen kann\, Land im Einklang mit der Natur zu bewirtschaf
+ ten. Heute\npilgern Landwirte aus ganz Britannien zur Duchy Homefarm und ho
+ len sich dort das Wissen und den Mut\, ihre eigene Landwirtschaft umzustell
+ en - ein Film\, der vielleicht bewirken kann\, dass viele Vorurteile gegenü
+ ber der ökologischen Landwirtschaft über Bord geworfen werden.\nOrt: Kommun
+ ales Kino\, Forum Leverkusen\nKosten: 5\,- Euro
+LAST-MODIFIED:20150120T073220Z
+LOCATION:Kommunales Kino\, Forum Leverkusen
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Der Bauer und sein Prinz
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT0S
+SEQUENCE:0
+ATTACH;VALUE=URI:Ping
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150223T183000Z
+DTEND:20150223T203000Z
+DTSTAMP:20151221T094346Z
+UID:Ical205151bd8c6df0adfb863f79ca137535
+CREATED:19000101T120000Z
+DESCRIPTION:
+LAST-MODIFIED:20150120T073330Z
+LOCATION:Gustav-Heinemann-Str. 11\, 51373 Leverkusen\, Deutschland
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:BUND – Mitgliederversammlung
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT0S
+SEQUENCE:0
+ATTACH;VALUE=URI:Ping
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150316T183000Z
+DTEND:20150316T203000Z
+DTSTAMP:20151221T094346Z
+UID:Icaldf11f2567347a4163e3dfebaa4b33bff
+CREATED:19000101T120000Z
+DESCRIPTION:Der Naturpark Delta de l’Ebre ist nach der Camargue das wichtig
+ ste Feuchtgebiet im westlichen Mittelmeerraum. \nSeine Bedeutung für die Vo
+ gelwelt ist immens: Er ist Brutgebiet und Überwinterungsgebiet und Rastplat
+ z zur Nahrungsaufnahme für zahllose Zugvögel auf ihrer Wanderung. \nSchon s
+ eit 22 Jahren beobachtet unser Referent die Natur im Ebro-Delta. Mit einer 
+ Auswahl aus dem reichen Fundus der fotografischen Dokumente vor allem der l
+ etzten beiden Jahre lässt er uns an seinen Naturbeobachtungen teilhaben\, b
+ ringt uns Land und Leute näher und berichtet über die verschiedenen Natursc
+ hutzeinrichtungen.\nReferent: Klaus Storsberg\nOrt: InfoTreff für Natur und
+  Umwelt in Leverkusen-Manfort\, Gustav-Heinemann-Str. 11\nKosten: 3\,- Euro
+  (Kinder und Mitglieder kostenlos)
+LAST-MODIFIED:20150120T073434Z
+LOCATION:Gustav-Heinemann-Str. 11\, 51373 Leverkusen\, Deutschland
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Das Ebro-Delta im Wandel der Jahreszeiten Bildvortrag
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:AUDIO
+TRIGGER:-PT0S
+SEQUENCE:0
+ATTACH;VALUE=URI:Ping
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150322T070000Z
+DTEND:20150322T100000Z
+DTSTAMP:20151221T094346Z
+UID:12ckllfed8e57j1dh6gu8ajorc@google.com
+CREATED:20150120T073605Z
+DESCRIPTION:zum Kennenlernen der Vogelstimmen oder auch zur  Auffrischung. 
+ Im Anschluss wollen wir die Wanderung im „Waldhaus Römer“ mit einem zweiten
+  Frühstück\nausklingen lassen.\nTreffpunkt: Parkplatz an der Wupperbrücke /
+ Düsseldorfer Straße in Leverkusen-Opladen\nLeitung: Anke Kammann\, Albert H
+ ullen\nKosten: 3\,- Euro (Kinder und Mitglieder kostenlos)
+LAST-MODIFIED:20150120T073727Z
+LOCATION:Leverkusen\, Opladen Wupperbrücke
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Die erste von vier Vogelstimmenwanderungen
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Berlin:20150319T190000
+DTEND;TZID=Europe/Berlin:20150319T200000
+DTSTAMP:20151221T094346Z
+UID:281p8125okfnk1vkapf53251ic@google.com
+RECURRENCE-ID;TZID=Europe/Berlin:20150318T190000
+CREATED:20150114T143740Z
+DESCRIPTION:
+LAST-MODIFIED:20150120T073835Z
+LOCATION:Gustav-Heinemann-Str. 11\, 51373 Leverkusen\, Deutschland
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Arbeitskreis Öffentlichkeitsarbeit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Berlin:20150522T210000
+DTEND;TZID=Europe/Berlin:20150522T230000
+RRULE:FREQ=MONTHLY;COUNT=3;BYDAY=4FR
+EXDATE;TZID=Europe/Berlin:20150522T210000
+EXDATE;TZID=Europe/Berlin:20150626T210000
+DTSTAMP:20151221T094346Z
+UID:ehr84obrp278mvgurtp1qs7akc@google.com
+CREATED:20150120T075022Z
+DESCRIPTION:gemeinsam mit dem NaturGut Ophoven\,\nfür maximal 20 Personen\,
+  Eltern mit Kindern.\nAn- und Abmeldung erforderlich unter Tel. 0 21 71 - 7
+ 3 49 90\nTreffpunkt: Parkplatz Diepentalsperre auf der Leverkusener Seite\n
+ Leitung: Mechtild Höller\nKosten: Erwachsene 8\,- / Kinder 6\,- Euro
+LAST-MODIFIED:20150120T075749Z
+LOCATION:Diepentaler Straße\, 51381 Leverkusen\, Deutschland
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Fledermausexkursion
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Berlin:20150814T210000
+DTEND;TZID=Europe/Berlin:20150814T230000
+DTSTAMP:20151221T094346Z
+UID:ehr84obrp278mvgurtp1qs7akc@google.com
+RECURRENCE-ID;TZID=Europe/Berlin:20150724T210000
+CREATED:20150120T075022Z
+DESCRIPTION:gemeinsam mit dem NaturGut Ophoven\,\nfür maximal 20 Personen\,
+  Eltern mit Kindern.\nAn- und Abmeldung erforderlich unter Tel. 0 21 71 - 7
+ 3 49 90\nTreffpunkt: Parkplatz Diepentalsperre auf der Leverkusener Seite\n
+ Leitung: Mechtild Höller\nKosten: Erwachsene 8\,- / Kinder 6\,- Euro
+LAST-MODIFIED:20150120T075929Z
+LOCATION:Diepentaler Straße\, 51381 Leverkusen\, Deutschland
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Fledermausexkursion
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20151207T183000Z
+DTEND:20151207T200000Z
+DTSTAMP:20151221T094346Z
+UID:g4i6r3re4akvsl25dbhmq5buts@google.com
+CREATED:20151129T181714Z
+DESCRIPTION:Erich Schulz\, Vorsitzender des NABU-Leverkusen\, hat zum 4. Ma
+ l in seinen Fotoschätzen gekramt und lässt auch an diesem Abend Menschen un
+ d Aktionen aus der 44jährigen Geschichte des Stadtverbandes lebendig werden
+ .\n
+LAST-MODIFIED:20151129T181714Z
+LOCATION:Gustav-Heinemann-Straße 11\, 51377 Leverkusen\, Deutschland
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:44 Jahre Vogelschutz in Leverkusen – ein Blick zurück
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
